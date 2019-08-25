@@ -1,0 +1,41 @@
+{
+  "name": "locallibrary-tutorial",
+  "version": "1.0.0",
+  "description": "express-locallylibrary-tutorial rebuilt with nest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node -r tsconfig-paths/register src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nest-locallibary-tutorial"
+  },
+  "author": "Phil Mill <ph.mill@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.1",
+    "@types/hapi__joi": "^15.0.3",
+    "@types/node": "^12.7.2",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.3.0",
+    "tsc-watch": "^2.4.0",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.1.1",
+    "@nestjs/common": "^6.5.3",
+    "@nestjs/core": "^6.5.3",
+    "@nestjs/platform-express": "^6.5.3",
+    "dotenv": "^8.1.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.2"
+  }
+}
